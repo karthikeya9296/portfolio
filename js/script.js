@@ -10,20 +10,20 @@ const closeNav = () => {
 }
 const hover = () => {
   if(window.innerWidth >= 1020){
-    title.innerHTML = "<span id=\"mm\">Antarpreet Kaur Ghuman</span>"
+    title.innerHTML = "<span id=\"mm\">Karthikeya Gummadi</span>"
     title.style.fontSize = "3.6458333333333335vw"
   }
   else{
-    title.innerHTML = "<span id=\"mm\">Antarpreet Kaur Ghuman</span>"
+    title.innerHTML = "<span id=\"mm\">Karthikeya Gummadi</span>"
   }
 }
 const leave = () => {
   if(window.innerWidth >= 1020){
-    title.innerHTML = "<span id=\"mm\">Antarpreet Kaur Ghuman</span>"
+    title.innerHTML = "<span id=\"mm\">Karthikeya Gummadi</span>"
     title.style.fontSize = "5.6458333333333335vw"
   }
   else{
-    title.innerHTML = "<span id=\"mm\">Antarpreet Kaur Ghuman</span>"
+    title.innerHTML = "<span id=\"mm\">Karthikeya Gummadi</span>"
   }
 }
 knowMore.addEventListener("mouseover", hover);
